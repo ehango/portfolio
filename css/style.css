@@ -1,3 +1,9 @@
+@media only screen and (max-width: 950px) {
+    .masthead-heading {
+        font-size: 3rem;
+    }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +30,7 @@ body {
 
 }
 .content {
-  width: 50rem;
+  width: 53rem;
   margin: 0 auto;
 }
 
@@ -92,10 +98,10 @@ h2 {
   height: 23rem;
   width: 50%;
   background-color: #A9D0F5;
-  display: inline-block;
   margin: 0 auto;
   vertical-align: middle;
   display: table-cell;
+  border: 4px solid white;
 }
 
 .about-intro {
@@ -187,7 +193,4 @@ a {
   
 }
 
-.footer > p {
-  font-weight: 300;
-  letter-spacing: .05;
-}
+
