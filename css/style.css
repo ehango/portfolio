@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Slabo 27px", "Helvetica Neue", sans-serif;
+    margin: 0;
+
+}
+.content {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+/* ------header---------- */
+
+.masthead .content {
+  background-color: #E0ECF8;
+  opacity: .5;
+  width: 50rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-radius: 1rem;
+
+}
+.masthead-intro {
+  text-align: center;
+  color: #5B1D6A;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -.02rem;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 18rem;
+  border: 1px solid #787786;
+  margin: 1rem auto;
+}
+
+.masthead-heading {
+  text-align: center; 
+  margin: 1.6rem 0;
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;  
+}
+
+.masthead {
+  padding: 9.8rem 0;
+  background-image: url('../images/landscape.jpeg');
+  background-size: cover;
+  height: 38rem;   
+}
+
+/* --------about section-------------------------------------- */
+.about {
+  padding: 2rem 0 4rem;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 2em;
+  padding: 2rem 0;
+  margin: 0;
+  
+}
+
+.circle {
+  border-radius: 50%;
+  height: 23rem;
+  width: 50%;
+  background-color: #A9D0F5;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.about-intro {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.about .content {
+  margin: auto;
+
+}
+
+.about h5 {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-weight: 300;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* ----------portfolio section------- */
+
+.portfolio {
+  background-color: #E0ECF8;
+  padding: 2rem 0;
+}
+
+
+.project {
+  display: inline-block;
+  width: 50%;
+  margin: 2rem 0;
+}
+
+.project img {
+  display: block;
+  margin: auto;
+
+}
+
+.caption a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.caption {
+  margin: 2rem 0 0;
+  text-align: center;
+}
+
+
+
+h4 {
+  margin: 2rem 0 0;
+}
+
+
+
+
+/* ----------footer-------------- */
+
+.footer {
+  background-color: #A9D0F5;
+  font-family: Verdana;
+  text-align: center;
+  padding: 2em;
+  list-style-type: none;
+  color: white;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  color: #5FB404;
+  font-weight: bold;
+ 
+}
+.social > li {
+   display: inline-block;
+  padding: .5em;
+  margin-right: 1em;
+  
+}
+
+.footer > p {
+  font-weight: 300;
+  letter-spacing: .05;
+}
